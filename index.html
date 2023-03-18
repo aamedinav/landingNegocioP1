@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RetroAmiga: Tu tienda de Amiga</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header>
+        <div class="logo-title-container">
+            <img src="/assets/logo.png" alt="RetroAmiga">
+            <div>
+                <p class="retro-amiga">RetroAmiga<p>
+            </div>
+        </div>
+            <nav>
+                <a href="#"><img src="/assets/cart.png" alt="Carro de compras" class="cart"></a>
+                <a href="#" class="sign-up">Registrarse</a>
+                <a href="#">Catálogo</a>
+                <a href="#">Noticias</a>
+                <a href="#">Quiénes somos</a>
+                <a href="#">Contacto</a>
+                <a href="#" class="menu"><img src="/assets/menu.png" alt="Menú"></a>
+            </nav>
+            
+    </header>
+    <div class="welcome-container">
+        <div class="welcome-left">
+            <p class="welcome-text">Bienvenido/a a la tienda líder de Amiga en Chile</p>
+            <div class="email-field">
+                <form action="/action_page.php">
+                    <label for="mail">Puedes recibir en tu correo información sobre nuevos productos en nuestro catálogo, así como novedades de la Comunidad Amiga:</label>
+                    <input type="email" class="email-input" placeholder="Ingresa tu correo">
+                    <input type="submit" class="email-submit" value="Enviar">
+                  </form>
+            </div> 
+        </div>
+        <img src="/assets/amigas.png" alt="Commodore Amiga 600, 500 y 1200">
+    </div>
+    <section>
+        <h2>Productos nuevos</h2>
+            <div class="section-item-container">
+                <article class="latest-arrivals">
+                    <div class="latest-arrivals-spacer">
+                        <img src="/assets/a1200.jpeg" alt="Amiga 1200">
+                        <h3>Amiga 1200 con acelerador BlizzardPPC</h3>
+                        <p>Reacondicionado. Unidad restaurada y en excelente estado de conservación. Incluye manuales y accesorios originales. Acelerador BlizzardPPC con tarjeta BlizzardVision.</p>
+                    </div>
+                        <hr>
+                        <p class="price">Precio: $350000</p>
+                        <button type="button" onclick="alert('Item agregado al carrito de compras')" class="add-to-cart">Agregar al carrito</button>
+                </article>
+                <article class="latest-arrivals">
+                    <div class="latest-arrivals-spacer">
+                        <img src="/assets/a500.jpg" alt="Amiga 500">
+                        <h3>Amiga 500 con PiStorm</h3>
+                        <p>Incluye caja y manuales originales. Sistema actualizado a AmigaOS 3.2.</p>
+                    </div>
+                        <hr>
+                        <p class="price">Precio: $200000</p>
+                        <button type="button" onclick="alert('Item agregado al carrito de compras')" class="add-to-cart">Agregar al carrito</button>
+                </article>
+                <article class="latest-arrivals">
+                    <div class="latest-arrivals-spacer">
+                        <img src="/assets/mos.jpg" alt="Logo MorphOS">
+                        <h3>Licencia para MorphOS 3.16 PPC</h3>
+                        <p>Licencia original de sistema MorphOS para sistemas con co-procesador PowerPC.</p>
+                    </div>
+                        <hr>
+                        <p class="price">Precio: $79990</p>
+                        <button type="button" onclick="alert('Item agregado al carrito de compras')" class="add-to-cart">Agregar al carrito</button>
+                </article>
+                <article class="latest-arrivals">
+                    <div class="latest-arrivals-spacer">
+                        <img src="/assets/duke-nukem.jpg" alt="Duke Nukem 3D">
+                        <h3>Duke Nukem 3D para AmigaOne</h3>
+                        <p>Juego Duke Nukem 3D para sistemas AmigaOne X1000/X5000 o sistemas AGA equipados con acelerador CyberStormPPC.</p>
+                    </div>
+                        <hr>
+                        <p class="price">Precio: $14990</p>
+                        <button type="button" onclick="alert('Item agregado al carrito de compras')" class="add-to-cart">Agregar al carrito</button>
+                </article>
+                <article class="latest-arrivals">
+                    <div class="latest-arrivals-spacer">
+                        <img src="/assets/cppc.jpg" alt="CyberStormPPC 68060">
+                        <h3>Acelerador CyberStormPPC 68060 para Amiga 4000T</h3>
+                        <p>Producida en Alemania por Phase5 Digital Products. Incluye co-procesador PowerPC, controlador SCSI y 64MB de RAM.</p>
+                    </div>
+                        <hr>
+                        <p class="price">Precio: $370990</p>
+                        <button type="button" onclick="alert('Item agregado al carrito de compras')" class="add-to-cart">Agregar al carrito</button>
+                </article>
+                <article class="latest-arrivals">
+                    <div class="latest-arrivals-spacer">
+                        <img src="/assets/c900.jpg" alt="Commodore 900">
+                        <h3>Commodore 900 (prototipo)</h3>
+                        <p>Unidad restaurada. Prototipo de workstation creado por Commodore para entrar al mercado UNIX.</p>
+                    </div>
+                        <hr>
+                        <p class="price">Precio: $1200000</p>
+                        <button type="button" onclick="alert('Item agregado al carrito de compras')" class="add-to-cart">Agregar al carrito</button>
+                </article>
+            </div>
+    </section>
+    <section>
+        <div class="blog"> 
+            <h2>Noticias</h2>
+            <hr>
+            <div class="blog-post">
+                <h3>Lanzada nueva versión del juego Sqrxyz</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur optio exercitationem non maxime cumque, nisi aliquid animi! Totam, asperiores beatae magnam iure esse ducimus nemo tempora placeat quibusdam, doloribus repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, molestias sapiente! Ad rerum neque soluta tempora natus aliquid, laboriosam eveniet in enim, reiciendis illum animi. Sunt odio repellat rem magnam.<a href="#">Leer más...</a></p>
+                <p class="post-date">Publicado el 20/12/2022 a las 20:30. <a href="#">0 comentarios</a></p>
+            </div>
+            <hr>
+            <div class="blog-post">
+                <h3>AmigaOne A1222 presentada en Amiwest 2022</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur optio exercitationem non maxime cumque, nisi aliquid animi! Totam, asperiores beatae magnam iure esse ducimus nemo tempora placeat quibusdam, doloribus repellendus? <a href="#">Leer más...</a></p>
+                <p class="post-date">Publicado el 12/10/2022 a las 12:47. <a href="#">10 comentarios</a></p>
+            </div>
+            <hr>
+            <div class="blog-post">
+                <h3>Nuevo sistemas operativo Linux Fienix para sistemas PPC</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur optio exercitationem non maxime cumque, nisi aliquid animi! Totam, asperiores beatae magnam iure esse ducimus nemo tempora placeat quibusdam, doloribus repellendus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae temporibus molestiae sint nihil odit rerum aliquid, culpa earum repellat et? Accusamus deleniti dolore laboriosam enim maiores amet eveniet ab quod.<a href="#">Leer más...</a></p>
+                <p class="post-date">Publicado el 07/07/2022 a las 16:05. <a href="#">1 comentarios</a></p>
+            </div>
+            <hr>
+            <div class="blog-post">
+                <h3>Hyperion Entertainment libera nueva actualización para AmigaOS 3.1.4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur optio exercitationem non maxime cumque, nisi aliquid animi! Totam, asperiores beatae magnam iure esse ducimus nemo tempora placeat quibusdam, doloribus repellendus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae temporibus molestiae sint nihil odit rerum aliquid, culpa earum repellat et? Accusamus deleniti dolore laboriosam enim maiores amet eveniet ab quod.<a href="#">Leer más...</a></p>
+                <p class="post-date">Publicado el 06/07/2022 a las 17:22. <a href="#">3 comentarios</a></p>
+            </div>
+            <hr>
+            <div class="blog-post">
+                <h3>Nueva versiones de Blender y VLC Media Player para AmigaOS 4.0</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur optio exercitationem non maxime cumque, nisi aliquid animi! Totam, asperiores beatae magnam iure esse ducimus nemo tempora placeat quibusdam, doloribus repellendus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae temporibus molestiae sint nihil odit rerum aliquid, culpa earum repellat et? Accusamus deleniti dolore laboriosam enim maiores amet eveniet ab quod.<a href="#">Leer más...</a></p>
+                <p class="post-date">Publicado el 02/05/2022 a las 12:09. <a href="#">2 comentarios</a></p>
+            </div>
+            <hr>
+            <div class="blog-post">
+                <h3>Entrevista a Dave Haynie sobre la quiebra de Commodore en 1994</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur optio exercitationem non maxime cumque, nisi aliquid animi! Totam, asperiores beatae magnam iure esse ducimus nemo tempora placeat quibusdam, doloribus repellendus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae temporibus molestiae sint nihil odit rerum aliquid, culpa earum repellat et? Accusamus deleniti dolore laboriosam enim maiores amet eveniet ab quod.<a href="#">Leer más...</a></p>
+                <p class="post-date">Publicado el 14/04/2022 a las 21:10. <a href="#">12 comentarios</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-links-container">
+            <div class="social-networks">
+                <p class="link-group">NUESTRAS REDES</p>
+                <a href="#"><img src="/assets/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="/assets/in.png" alt="Instagram"></a>
+                <a href="#"><img src="/assets/tw.png" alt="Twitter"></a>
+            </div>
+            <div class="link-section-container">
+                <div class="link-section">
+                    <p class="link-group">MUNDO AMIGA</p>
+                    <a href="#">Noticias</a>
+                    <a href="#">Reseñas</a>
+                </div>
+                <div class="link-section">
+                    <p class="link-group">TIENDA</p>
+                    <a href="#">Classic Amiga</a>
+                    <a href="#">AmigaOne</a>
+                    <a href="#">Accesorios</a>
+                    <a href="#">Software</a>
+                    <a href="#">Piezas de repuesto</a>
+                </div>
+                <div class="link-section">
+                    <p class="link-group">NOSOTROS</p>
+                    <a href="#">Quiénes somos</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Nuestro equipo</a>
+                    <a href="#">Trabaja con nosotros</a>
+                    <a href="#">Contacto</a>
+                </div>
+            </div>
+        </div>
+        <hr><br>
+        <p class="copyright">©2023. Todos los derechos reservados. Amiga es una marca registrada de Amiga Inc.</p>
+    </footer>
+</body>
+</html>

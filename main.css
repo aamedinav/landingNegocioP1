@@ -1,0 +1,413 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: midnightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+.retro-amiga{
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.welcome-text{
+    color: gold;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.email-input{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(8, 8, 57);
+    border: 2px solid gold;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 65%;
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.email-submit{
+    color: black;
+    font-size: 20px;
+    background-color: gold;
+    border: 2px solid gold;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 25%;
+    height: 40px;
+}
+
+nav a{
+    margin-left: 25px;
+}
+
+nav img{
+    display: none;
+}
+
+.cart{
+    width: 20px;
+    display: inline;
+}
+
+.menu{
+    display: none;
+}
+
+.sign-up{
+    color: gold;
+}
+
+.sign-up:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+header img{
+    width: 50px;
+}
+
+header h1{
+    color: white;
+    margin-left: 10px
+}
+
+header p{
+    color: white;
+    margin-left: 10px
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: gold;
+}
+
+.logo-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome-container{
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.welcome-left{
+    width: 40%;
+}
+
+.welcome-container img{
+    width: 60%;
+}
+
+section{
+    background-color: lightgray;
+    color: midnightblue;
+    padding: 5px 50px;
+}
+
+section h2{
+    margin: 10px 0px 10px 0px;
+}
+
+.section-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.latest-arrivals{
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.latest-arrivals-spacer{
+    height: 400px;
+    padding: 10px;
+}
+
+.latest-arrivals p{
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.latest-arrivals h3{
+    margin: 10px 0px;
+}
+
+.latest-arrivals img{
+    width: 100%;
+}
+
+.latest-arrivals hr{
+    margin: 0px 10px;
+}
+
+.price{
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.add-to-cart{
+    width: 95%;
+    height: 50px;
+    color: white;
+    background-color: midnightblue;
+    border-radius: 10px;
+    margin: 0px 10px 10px 10px;
+}
+
+.add-to-cart:hover{
+    color: gold;
+}
+
+.blog{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    color: white;
+    background-color: midnightblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.blog h2{
+    margin: 10px;
+}
+
+.blog-post p{
+    margin: 10px;
+}
+
+.blog hr{
+    border: 1px dotted white;
+    margin: 0px 10px 10px 10px;
+}
+
+.blog-post{
+    width: 100%;
+    color: lightgrey;
+
+}
+
+.blog-post h3{
+    margin: 0px 10px 0px 10px;
+    color: white;
+}
+
+.blog-post p{
+    margin: 0px 10px 10px 10px;
+}
+
+.blog-post a{
+    color: gold;
+}
+
+.post-date{
+    text-align: right;
+}
+
+footer{
+    background-color: midnightblue;
+    color: white;
+    /*height: 200px;*/
+    padding: 50px 50px 25px 50px;
+}
+
+.link-group{
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+footer a:hover{
+    color: gold;
+}
+
+.footer-links-container{
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between
+}
+
+.social-networks{
+    width: 50%;
+}
+
+.social-networks img{
+    width: 50px
+}
+
+.link-section-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0px 0px 25px 0px;
+}
+
+.link-section{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+footer hr{
+    border: 1px solid white;
+}
+
+.copyright{
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+    header a{
+        display: none;
+    }
+
+    section{
+        padding: 5px 25px;
+    }
+
+    .section-item-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .latest-arrivals{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    section h2{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header a{
+        display: none;
+    }
+
+    nav img{
+        display: inline;
+    }
+
+    .menu{
+        display: inline;
+    }
+
+    .retro-amiga{
+        font-size: 40px;
+    }
+
+    .welcome-text{
+        font-size: 30px;
+    }
+
+    .welcome-container{
+        flex-direction: column;
+    }
+
+    .welcome-left{
+        width: 100%;
+    }
+
+    .email-input{
+        width: 100%;
+        padding: 0;
+    }
+
+    .email-submit{
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .welcome-container img{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    section{
+        padding: 5px 25px;
+    }
+
+    .section-item-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .latest-arrivals{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section h2{
+        text-align: center;
+    }
+
+    .link-section-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 40%;
+        padding: 0px 0px 25px 0px;
+    }
+
+    .link-section{
+        width: 100%;
+    }
+
+    .link-group{
+        margin-top: 15px;
+    }
+}
