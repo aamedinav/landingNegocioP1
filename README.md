@@ -1,4 +1,4 @@
-# Projecto 1: Landind de Negocio
+# Proyecto 1: Landind de Negocio
 
 ## Descripción
 
